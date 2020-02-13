@@ -9,7 +9,7 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	"k8s.io/klog"
 
-	metrics "github.com/openshift/oauth-server/pkg/prometheus"
+	metrics "github.com/theodor2311/oauth-server/pkg/prometheus"
 )
 
 type basicAuthRequestHandler struct {

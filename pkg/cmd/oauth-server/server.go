@@ -22,7 +22,7 @@ import (
 	osinv1 "github.com/openshift/api/osin/v1"
 	"github.com/openshift/library-go/pkg/config/helpers"
 	"github.com/openshift/library-go/pkg/config/serving"
-	"github.com/openshift/oauth-server/pkg/oauthserver"
+	"github.com/theodor2311/oauth-server/pkg/oauthserver"
 
 	// for metrics
 	_ "github.com/openshift/library-go/pkg/controller/metrics"

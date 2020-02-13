@@ -13,8 +13,8 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	"k8s.io/apiserver/pkg/authentication/user"
 
-	"github.com/openshift/oauth-server/pkg/server/csrf"
-	"github.com/openshift/oauth-server/pkg/userregistry/identitymapper"
+	"github.com/theodor2311/oauth-server/pkg/server/csrf"
+	"github.com/theodor2311/oauth-server/pkg/userregistry/identitymapper"
 )
 
 type testAuth struct {

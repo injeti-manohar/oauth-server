@@ -24,11 +24,11 @@ import (
 	routeclient "github.com/openshift/client-go/route/clientset/versioned/typed/route/v1"
 	userclient "github.com/openshift/client-go/user/clientset/versioned/typed/user/v1"
 	bootstrap "github.com/openshift/library-go/pkg/authentication/bootstrapauthenticator"
-	"github.com/openshift/oauth-server/pkg/config"
-	"github.com/openshift/oauth-server/pkg/server/crypto"
-	"github.com/openshift/oauth-server/pkg/server/headers"
-	"github.com/openshift/oauth-server/pkg/server/session"
-	"github.com/openshift/oauth-server/pkg/userregistry/identitymapper"
+	"github.com/theodor2311/oauth-server/pkg/config"
+	"github.com/theodor2311/oauth-server/pkg/server/crypto"
+	"github.com/theodor2311/oauth-server/pkg/server/headers"
+	"github.com/theodor2311/oauth-server/pkg/server/session"
+	"github.com/theodor2311/oauth-server/pkg/userregistry/identitymapper"
 )
 
 var (

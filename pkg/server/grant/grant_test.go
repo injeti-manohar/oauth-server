@@ -19,8 +19,8 @@ import (
 
 	oapi "github.com/openshift/api/oauth/v1"
 	oauthfake "github.com/openshift/client-go/oauth/clientset/versioned/fake"
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/server/csrf"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/server/csrf"
 )
 
 type testAuth struct {

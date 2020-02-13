@@ -12,9 +12,9 @@ import (
 	"github.com/RangelReale/osincli"
 	"k8s.io/klog"
 
-	authapi "github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/external"
-	"github.com/openshift/oauth-server/pkg/oauth/external/github/links"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external/github/links"
 )
 
 const (

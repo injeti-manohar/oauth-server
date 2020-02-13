@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/openshift/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/api"
 	"k8s.io/apiserver/pkg/authentication/user"
 )
 

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openshift/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/api"
 )
 
 func TestSelectAuthentication(t *testing.T) {

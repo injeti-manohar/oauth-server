@@ -8,9 +8,9 @@ import (
 
 	"k8s.io/apiserver/pkg/authentication/user"
 
-	"github.com/openshift/oauth-server/pkg"
-	"github.com/openshift/oauth-server/pkg/server/redirect"
-	"github.com/openshift/oauth-server/pkg/server/session"
+	"github.com/theodor2311/oauth-server/pkg"
+	"github.com/theodor2311/oauth-server/pkg/server/redirect"
+	"github.com/theodor2311/oauth-server/pkg/server/session"
 )
 
 const thenParam = "then"

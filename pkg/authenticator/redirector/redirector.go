@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/openshift/oauth-server/pkg/authenticator/tokens"
-	oauthhandlers "github.com/openshift/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/authenticator/tokens"
+	oauthhandlers "github.com/theodor2311/oauth-server/pkg/oauth/handlers"
 )
 
 // NewRedirector returns an oauthhandlers.AuthenticationRedirector that redirects to the specified redirectURL.

@@ -9,7 +9,7 @@ import (
 	"github.com/RangelReale/osincli"
 	"golang.org/x/oauth2"
 
-	"github.com/openshift/oauth-server/pkg/osinserver/teststorage"
+	"github.com/theodor2311/oauth-server/pkg/osinserver/teststorage"
 )
 
 func TestClientCredentialFlow(t *testing.T) {

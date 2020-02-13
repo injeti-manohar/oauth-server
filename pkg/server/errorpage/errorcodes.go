@@ -1,6 +1,6 @@
 package errorpage
 
-import "github.com/openshift/oauth-server/pkg/userregistry/identitymapper"
+import "github.com/theodor2311/oauth-server/pkg/userregistry/identitymapper"
 
 const (
 	// error occurred attempting to claim a user

@@ -13,12 +13,12 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 
-	"github.com/openshift/oauth-server/pkg"
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
-	"github.com/openshift/oauth-server/pkg/prometheus"
-	"github.com/openshift/oauth-server/pkg/server/csrf"
-	"github.com/openshift/oauth-server/pkg/server/errorpage"
-	"github.com/openshift/oauth-server/pkg/server/redirect"
+	"github.com/theodor2311/oauth-server/pkg"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/prometheus"
+	"github.com/theodor2311/oauth-server/pkg/server/csrf"
+	"github.com/theodor2311/oauth-server/pkg/server/errorpage"
+	"github.com/theodor2311/oauth-server/pkg/server/redirect"
 )
 
 const (

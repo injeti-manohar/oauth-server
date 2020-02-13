@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openshift/oauth-server/pkg/oauth/external"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external"
 )
 
 func TestGitLab(t *testing.T) {

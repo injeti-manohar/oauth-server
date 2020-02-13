@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/openshift/oauth-server/pkg/oauth/external"
-	"github.com/openshift/oauth-server/pkg/oauth/external/openid"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external/openid"
 )
 
 const (

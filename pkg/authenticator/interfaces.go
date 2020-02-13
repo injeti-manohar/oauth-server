@@ -3,7 +3,7 @@ package authenticator
 import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 
-	"github.com/openshift/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/api"
 )
 
 type Assertion interface {

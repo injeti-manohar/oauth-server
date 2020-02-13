@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	bootstrap "github.com/openshift/library-go/pkg/authentication/bootstrapauthenticator"
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
 )
 
 func NewBootstrapSelectProvider(delegate handlers.AuthenticationSelectionHandler, getter bootstrap.BootstrapUserDataGetter) handlers.AuthenticationSelectionHandler {

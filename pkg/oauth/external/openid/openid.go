@@ -15,8 +15,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	authapi "github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/external"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external"
 )
 
 const (

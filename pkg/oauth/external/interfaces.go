@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/RangelReale/osincli"
-	authapi "github.com/openshift/oauth-server/pkg/api"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
 )
 
 // Provider encapsulates the URLs, configuration, any custom authorize request parameters, and

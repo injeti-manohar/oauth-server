@@ -15,7 +15,7 @@ import (
 
 	userapi "github.com/openshift/api/user/v1"
 	userv1fakeclient "github.com/openshift/client-go/user/clientset/versioned/fake"
-	authapi "github.com/openshift/oauth-server/pkg/api"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
 )
 
 type testNewIdentityGetter struct {

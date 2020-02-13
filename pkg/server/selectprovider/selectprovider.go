@@ -9,8 +9,8 @@ import (
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
 )
 
 type SelectProviderRenderer interface {

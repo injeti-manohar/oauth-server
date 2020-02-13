@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	oauthhandlers "github.com/openshift/oauth-server/pkg/oauth/handlers"
+	oauthhandlers "github.com/theodor2311/oauth-server/pkg/oauth/handlers"
 )
 
 type basicPasswordAuthHandler struct {

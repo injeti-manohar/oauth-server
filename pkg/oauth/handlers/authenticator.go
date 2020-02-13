@@ -9,9 +9,9 @@ import (
 
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 
-	"github.com/openshift/oauth-server/pkg/api"
-	openshiftauthenticator "github.com/openshift/oauth-server/pkg/authenticator"
-	"github.com/openshift/oauth-server/pkg/osinserver"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	openshiftauthenticator "github.com/theodor2311/oauth-server/pkg/authenticator"
+	"github.com/theodor2311/oauth-server/pkg/osinserver"
 )
 
 // authorizeAuthenticator implements osinserver.AuthorizeHandler to ensure requests are authenticated

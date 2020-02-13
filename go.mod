@@ -1,4 +1,4 @@
-module github.com/openshift/oauth-server
+module github.com/theodor2311/oauth-server
 
 go 1.13
 

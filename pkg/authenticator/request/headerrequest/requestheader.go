@@ -6,8 +6,8 @@ import (
 
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 
-	authapi "github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/authenticator/identitymapper"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/authenticator/identitymapper"
 )
 
 type Config struct {

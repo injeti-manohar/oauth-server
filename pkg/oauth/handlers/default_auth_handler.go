@@ -11,7 +11,7 @@ import (
 	"k8s.io/apiserver/pkg/endpoints/request"
 
 	oauthapi "github.com/openshift/api/oauth/v1"
-	authapi "github.com/openshift/oauth-server/pkg/api"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
 )
 
 // unionAuthenticationHandler is an oauth.AuthenticationHandler that muxes multiple challenge handlers and redirect handlers

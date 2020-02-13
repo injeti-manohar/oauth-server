@@ -9,7 +9,7 @@ import (
 
 	osinv1 "github.com/openshift/api/osin/v1"
 	"github.com/openshift/library-go/pkg/security/ldaputil"
-	authapi "github.com/openshift/oauth-server/pkg/api"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
 )
 
 // LDAPUserIdentityFactory creates Identites for LDAP user entries.

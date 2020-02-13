@@ -11,8 +11,8 @@ import (
 
 	oauth "github.com/openshift/api/oauth/v1"
 	oauthclient "github.com/openshift/client-go/oauth/clientset/versioned/typed/oauth/v1"
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/scopecovers"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/scopecovers"
 )
 
 var errEmptyUID = stderrors.New("user from request has empty UID and thus cannot perform a grant flow")

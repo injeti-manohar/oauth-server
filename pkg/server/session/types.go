@@ -6,7 +6,7 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	"k8s.io/apiserver/pkg/authentication/user"
 
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
 )
 
 // Store abstracts HTTP session storage of Values

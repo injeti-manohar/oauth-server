@@ -7,7 +7,7 @@ import (
 
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 
-	"github.com/openshift/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/api"
 )
 
 // ResponseFor bridges the UserIdentityMapper interface with the authenticator.{Password|Request} interfaces

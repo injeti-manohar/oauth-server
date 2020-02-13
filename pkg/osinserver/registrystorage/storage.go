@@ -15,9 +15,9 @@ import (
 	oauthapi "github.com/openshift/api/oauth/v1"
 	oauthclient "github.com/openshift/client-go/oauth/clientset/versioned/typed/oauth/v1"
 	scopemetadata "github.com/openshift/library-go/pkg/authorization/scopemetadata"
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
-	"github.com/openshift/oauth-server/pkg/scopecovers"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/scopecovers"
 )
 
 type storage struct {

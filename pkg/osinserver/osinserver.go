@@ -11,7 +11,7 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
 	"github.com/openshift/library-go/pkg/oauth/oauthdiscovery"
-	"github.com/openshift/oauth-server/pkg"
+	"github.com/theodor2311/oauth-server/pkg"
 )
 
 type osinServer struct {

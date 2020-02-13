@@ -3,7 +3,7 @@ package handlers
 import (
 	"testing"
 
-	"github.com/openshift/oauth-server/pkg/osinserver"
+	"github.com/theodor2311/oauth-server/pkg/osinserver"
 )
 
 func TestGrant(t *testing.T) {

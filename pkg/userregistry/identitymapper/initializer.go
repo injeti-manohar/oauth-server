@@ -2,7 +2,7 @@ package identitymapper
 
 import (
 	userapi "github.com/openshift/api/user/v1"
-	authapi "github.com/openshift/oauth-server/pkg/api"
+	authapi "github.com/theodor2311/oauth-server/pkg/api"
 )
 
 type DefaultUserInitStrategy struct {

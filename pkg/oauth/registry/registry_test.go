@@ -15,10 +15,10 @@ import (
 
 	oauthv1 "github.com/openshift/api/oauth/v1"
 	oauthfake "github.com/openshift/client-go/oauth/clientset/versioned/fake"
-	"github.com/openshift/oauth-server/pkg/api"
-	"github.com/openshift/oauth-server/pkg/oauth/handlers"
-	"github.com/openshift/oauth-server/pkg/osinserver"
-	"github.com/openshift/oauth-server/pkg/osinserver/registrystorage"
+	"github.com/theodor2311/oauth-server/pkg/api"
+	"github.com/theodor2311/oauth-server/pkg/oauth/handlers"
+	"github.com/theodor2311/oauth-server/pkg/osinserver"
+	"github.com/theodor2311/oauth-server/pkg/osinserver/registrystorage"
 )
 
 type testHandlers struct {

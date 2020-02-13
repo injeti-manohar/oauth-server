@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/openshift/oauth-server/pkg/oauth/external"
+	"github.com/theodor2311/oauth-server/pkg/oauth/external"
 
 	"k8s.io/klog"
 )
