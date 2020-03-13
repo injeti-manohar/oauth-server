@@ -492,7 +492,7 @@ func (c *OAuthServerConfig) getOAuthProvider(identityProvider osinv1.IdentityPro
 			TokenURL:     provider.URLs.Token,
 			UserInfoURL:  provider.URLs.UserInfo,
 
-			IDClaims:                provider.Claims.ID,
+			IDClaims:                []string{"sid"},
 			PreferredUsernameClaims: provider.Claims.PreferredUsername,
 			EmailClaims:             provider.Claims.Email,
 			NameClaims:              provider.Claims.Name,
